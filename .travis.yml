@@ -5,10 +5,10 @@ sudo: true
 python:
   - 3.8
 
-services:
-  postgresql
-addons:
-  postgresql: '9.5'
+#services:
+#  postgresql
+#addons:
+#  postgresql: '9.5'
 
 env:
   global:
@@ -20,12 +20,12 @@ install:
   - pipenv sync -d
 
 
-before_script:
-  - psql -c "CREATE DATABASE testdb;" -U postgres
+#before_script:
+#  - psql -c "CREATE DATABASE testdb;" -U postgres
 
 script:
   - pipenv run flake8 .
   - pipenv run pytest --cov=pypro
 
-after_success:
-  - pipenv run codecov
+#after_success:
+#  - pipenv run codecov
