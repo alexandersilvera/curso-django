@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Integrando base de datos Postgresql" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dNNQFm7J2wV3Uo9U2dxAfPM546" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/contrib" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contrib" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="" />
+      <created>1592261575770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592261575770</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Creada infra de tests con pytest-django">
+      <created>1592266998097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592266998097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creada infra de tests con pytest-django">
+      <created>1592267250396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592267250396</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Integrando cobertura de test">
+      <created>1592336229722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592336229722</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Integración de python-decouple y configuración de settings">
+      <created>1592339653812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592339653812</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Integración de python-decouple y configuración de settings">
+      <created>1592339944333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592339944333</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Integración de python-decouple y configuración de settings">
+      <created>1592340107645</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592340107645</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Integrando base de datos Postgresql">
+      <created>1592517643164</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592517643164</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Integrando base de datos Postgresql">
+      <created>1592518692038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592518692038</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creada infra de tests con pytest-django" />
+    <MESSAGE value="Integrando cobertura de test" />
+    <MESSAGE value="Integración de python-decouple y configuración de settings" />
+    <MESSAGE value="Integrando base de datos Postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrando base de datos Postgresql" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="266" width="261" height="270" key="#Notifications" timestamp="1592519189688">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="585" y="266" width="261" height="270" key="#Notifications/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592519189688" />
+    <state x="730" y="196" width="612" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592339399567">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="730" y="196" width="612" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592339399567" />
+    <state width="644" height="281" key="GridCell.Tab.0.bottom" timestamp="1592269504265">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="644" height="281" key="GridCell.Tab.0.bottom/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592269504265" />
+    <state width="644" height="281" key="GridCell.Tab.0.center" timestamp="1592269504265">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="644" height="281" key="GridCell.Tab.0.center/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592269504265" />
+    <state width="644" height="281" key="GridCell.Tab.0.left" timestamp="1592269504264">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="644" height="281" key="GridCell.Tab.0.left/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592269504264" />
+    <state width="644" height="281" key="GridCell.Tab.0.right" timestamp="1592269504265">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="644" height="281" key="GridCell.Tab.0.right/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592269504265" />
+    <state x="191" y="90" width="1030" height="629" key="MergeDialog" timestamp="1592267317496">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="191" y="90" width="1030" height="629" key="MergeDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592267317496" />
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1592267317520">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592267317520" />
+    <state x="338" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1592264956018">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="338" y="31" width="1022" height="737" key="SettingsEditor/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592264956018" />
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592518714613">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592518714613" />
+    <state x="370" y="186" width="682" height="430" key="git4idea.merge.GitPullDialog" timestamp="1592407656792">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="370" y="186" width="682" height="430" key="git4idea.merge.GitPullDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592407656792" />
+  </component>
+</project>
