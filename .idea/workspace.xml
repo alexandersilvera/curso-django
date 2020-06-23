@@ -24,8 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Mandando las migraciones a github">
+    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Generando migraciones en Heroku y configuració de ALLOWED_HOSTS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,14 +170,7 @@
       <option name="project" value="LOCAL" />
       <updated>1592848421691</updated>
     </task>
-    <task id="LOCAL-00014" summary="Mandando las migraciones a github">
-      <created>1592875054004</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1592875054004</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -201,8 +196,7 @@
     <MESSAGE value="Arreglos a integración de base de datos Postgresql" />
     <MESSAGE value="Generando migraciones en Heroku" />
     <MESSAGE value="Generando migraciones en Heroku y configuració de ALLOWED_HOSTS" />
-    <MESSAGE value="Mandando las migraciones a github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mandando las migraciones a github" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generando migraciones en Heroku y configuració de ALLOWED_HOSTS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="266" width="261" height="270" key="#Notifications" timestamp="1592519189688">
@@ -245,10 +239,10 @@
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="338" y="31" width="1022" height="737" key="SettingsEditor/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592264956018" />
-    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592875103421">
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592848432256">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592875103421" />
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592848432256" />
     <state x="370" y="186" width="682" height="430" key="git4idea.merge.GitPullDialog" timestamp="1592407656792">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
