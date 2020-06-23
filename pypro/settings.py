@@ -44,7 +44,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
 ROOT_URLCONF = 'pypro.urls'
+
 
 TEMPLATES = [
     {
@@ -61,6 +63,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'pypro.wsgi.application'
 

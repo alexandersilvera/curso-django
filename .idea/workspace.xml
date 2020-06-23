@@ -24,10 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Arreglos en Procfile">
-      <change beforePath="$PROJECT_DIR$/pypro/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Arreglos en Procfile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +45,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1dNNQFm7J2wV3Uo9U2dxAfPM546" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -176,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592876247042</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Arreglos en Procfile">
+      <created>1592876711714</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592876711714</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -238,18 +243,18 @@
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="191" y="90" width="1030" height="629" key="MergeDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592525985586" />
-    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1592525985627">
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1592876762343">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592525985627" />
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592876762343" />
     <state x="338" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1592264956018">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="338" y="31" width="1022" height="737" key="SettingsEditor/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592264956018" />
-    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592876254668">
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592877070751">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592876254668" />
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592877070751" />
     <state x="370" y="186" width="682" height="430" key="git4idea.merge.GitPullDialog" timestamp="1592407656792">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
