@@ -25,7 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Arreglos en Procfile settings y models.">
-      <change beforePath="$PROJECT_DIR$/pypro/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592877390056</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Arreglos en Procfile settings y models.">
+      <created>1592877907878</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592877907878</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -229,10 +236,10 @@
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592519281139" />
-    <state x="730" y="196" width="612" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592339399567">
+    <state x="730" y="196" width="612" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592953967039">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state x="730" y="196" width="612" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592339399567" />
+    <state x="730" y="196" width="612" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592953967039" />
     <state width="644" height="281" key="GridCell.Tab.0.bottom" timestamp="1592269504265">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
@@ -261,13 +268,17 @@
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="338" y="31" width="1022" height="737" key="SettingsEditor/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592264956018" />
-    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592877398712">
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592877910862">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592877398712" />
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592877910862" />
     <state x="370" y="186" width="682" height="430" key="git4idea.merge.GitPullDialog" timestamp="1592407656792">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="370" y="186" width="682" height="430" key="git4idea.merge.GitPullDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592407656792" />
+    <state x="682" y="92" width="672" height="678" key="search.everywhere.popup" timestamp="1592955738798">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="682" y="92" width="672" height="678" key="search.everywhere.popup/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592955738798" />
   </component>
 </project>
