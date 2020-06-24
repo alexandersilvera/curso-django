@@ -2,3 +2,4 @@ DEBUG=True
 SECRET_KEY='pa*&h6fo(c4b4b6n!1*-(h4i6q7lsr-0wnj6@2#t#y39pla^d4'
 ALLOWED_HOSTS=localhost, 127.0.0.1
 DATABASE_URL=postgres://postgres:postgres@localhost/testdb
+INTERNAL_IPS=127.0.0.1
