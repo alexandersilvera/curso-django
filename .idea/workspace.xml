@@ -24,7 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Arreglos en Procfile settings y models.">
+    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Integrando carpeta de migrations de app base">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/contrib" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592877907878</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Integrando carpeta de migrations de app base">
+      <created>1592956183861</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1592956183861</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -225,7 +232,8 @@
     <MESSAGE value="Generando migraciones en Heroku y configuració de ALLOWED_HOSTS" />
     <MESSAGE value="Arreglos en Procfile" />
     <MESSAGE value="Arreglos en Procfile settings y models." />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglos en Procfile settings y models." />
+    <MESSAGE value="Integrando carpeta de migrations de app base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrando carpeta de migrations de app base" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="266" width="261" height="270" key="#Notifications" timestamp="1592519189688">
@@ -264,14 +272,14 @@
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592876762343" />
-    <state x="338" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1592264956018">
+    <state x="338" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1592956813236">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state x="338" y="31" width="1022" height="737" key="SettingsEditor/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592264956018" />
-    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592877910862">
+    <state x="338" y="31" width="1022" height="737" key="SettingsEditor/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592956813236" />
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592956194159">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592877910862" />
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592956194159" />
     <state x="370" y="186" width="682" height="430" key="git4idea.merge.GitPullDialog" timestamp="1592407656792">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
