@@ -24,10 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Agregando Debug-Toolbar en proyecto">
+    <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Arreglos en Django Debug Toolbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593008277656</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Arreglos en Django Debug Toolbar">
+      <created>1593217819132</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1593217819132</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -242,7 +247,8 @@
     <MESSAGE value="Arreglos en Procfile settings y models." />
     <MESSAGE value="Integrando carpeta de migrations de app base" />
     <MESSAGE value="Agregando Debug-Toolbar en proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregando Debug-Toolbar en proyecto" />
+    <MESSAGE value="Arreglos en Django Debug Toolbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglos en Django Debug Toolbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="266" width="261" height="270" key="#Notifications" timestamp="1592519189688">
