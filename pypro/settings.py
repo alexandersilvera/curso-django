@@ -1,5 +1,6 @@
 import os
-
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 from functools import partial
 
@@ -120,3 +121,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
+
+SENTRY_DSN = config('SENTRY_DSN', default=None)
+
+if SENTRY_DSN:
+    sentry_sdk.init(dsn=SENTRY_DSN, integrations=[DjangoIntegration()], send_default_pii=True)

@@ -3,3 +3,4 @@ SECRET_KEY='pa*&h6fo(c4b4b6n!1*-(h4i6q7lsr-0wnj6@2#t#y39pla^d4'
 ALLOWED_HOSTS=localhost, 127.0.0.1
 DATABASE_URL=postgres://postgres:postgres@localhost/testdb
 INTERNAL_IPS=127.0.0.1
+SENTRY_DSN=https://c4004ccbe6e7403f91feda1b39a7e3e1@o413304.ingest.sentry.io/5298610

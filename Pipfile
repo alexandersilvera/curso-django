@@ -17,6 +17,7 @@ psycopg2-binary = "*"
 dj-database-url = "*"
 django-s3-folder-storage = "*"
 django-debug-toolbar = "*"
+sentry-sdk = "*"
 
 [requires]
 python_version = "3.8"
