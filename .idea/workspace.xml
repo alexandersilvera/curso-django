@@ -25,22 +25,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Arreglos en Django Debug Toolbar">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/indice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/templates/base/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/templates/base/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_indice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/indice.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/indice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/test_indice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/test_video.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/aperitivos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/templates/base/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -76,7 +70,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -94,94 +88,97 @@
       <recent name="$PROJECT_DIR$/contrib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_home.test_email_link">
-    <configuration name="pytest for test_home.test_email_link" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.testear todo con migraciones">
+    <configuration default="true" type="tests" factoryName="py.test">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home.test_email_link&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests_indice.test_link_video" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_indice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests_indice.test_link_video&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/aperitivos/tests/test_indice.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_video.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/aperitivos/tests&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/aperitivos/tests/test_video.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in tests_indice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="testear todo con migraciones" type="tests" factoryName="py.test">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/aperitivos/tests/tests_indice.py&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-s&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in tests_video.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="testear todo sin migraciones" type="tests" factoryName="py.test">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/aperitivos/tests/tests_video.py&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.testear todo sin migraciones" />
+      <item itemvalue="Python tests.testear todo con migraciones" />
+      <item itemvalue="Python tests.pytest in test_video.py" />
+      <item itemvalue="Python tests.pytest in test_indice.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_home.test_email_link" />
-        <item itemvalue="Python tests.pytest for tests_indice.test_link_video" />
-        <item itemvalue="Python tests.pytest in tests_video.py" />
-        <item itemvalue="Python tests.pytest in tests_indice.py" />
-        <item itemvalue="Python tests.pytest in tests" />
+        <item itemvalue="Python tests.pytest in test_indice.py" />
+        <item itemvalue="Python tests.pytest in test_video.py" />
       </list>
     </recent_temporary>
   </component>
@@ -374,15 +371,19 @@
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="585" y="266" width="261" height="270" key="#Notifications/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592519189688" />
-    <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594677927649">
+    <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595036274682">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592519281139" />
+    <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595036274682" />
     <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1288.741@72.27.1288.741" timestamp="1594677927649" />
     <state x="730" y="196" width="612" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592953967039">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
     <state x="730" y="196" width="612" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1592953967039" />
+    <state x="910" y="288" width="335" height="224" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1595030429624">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="910" y="288" width="335" height="224" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595030429624" />
     <state x="452" y="323" width="524" height="156" key="DBNavigator.CreateRenameConsoleDialog" timestamp="1594663762644">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -391,6 +392,11 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="323" width="524" height="156" key="DBNavigator.CreateRenameSessionDialog/72.27.1294.741@72.27.1294.741" timestamp="1594668048043" />
+    <state x="300" y="115" width="824" height="571" key="DBNavigator.DatasetFilterDialog" timestamp="1595089915981">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="299" y="115" width="824" height="571" key="DBNavigator.DatasetFilterDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595034116383" />
+    <state x="300" y="115" width="824" height="571" key="DBNavigator.DatasetFilterDialog/72.27.1294.741@72.27.1294.741" timestamp="1595089915981" />
     <state x="426" y="74" width="924" height="691" key="DBNavigator.ProjectSettingsDialog" timestamp="1595020882676">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
@@ -403,50 +409,51 @@
     <state x="516" y="165" key="DBNavigator.ResultSetRecordViewerDialog/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595019588977" />
     <state x="516" y="165" width="392" height="471" key="DBNavigator.ResultSetRecordViewerDialog/72.27.1288.741@72.27.1288.741" timestamp="1594679677992" />
     <state x="518" y="165" width="392" height="471" key="DBNavigator.ResultSetRecordViewerDialog/72.27.1294.741@72.27.1294.741" timestamp="1594663842401" />
-    <state x="492" y="126" width="443" height="550" key="FileChooserDialogImpl" timestamp="1594668100949">
+    <state x="490" y="126" width="443" height="550" key="FileChooserDialogImpl" timestamp="1595035997977">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="490" y="126" key="FileChooserDialogImpl/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595035997977" />
+    <state x="492" y="126" width="443" height="550" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1594668100949" />
+    <state width="1271" height="494" key="GridCell.Tab.0.bottom" timestamp="1595180415934">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="492" y="126" width="443" height="550" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1594668100949" />
-    <state width="612" height="214" key="GridCell.Tab.0.bottom" timestamp="1594660902267">
-      <screen x="72" y="27" width="1288" height="741" />
-    </state>
-    <state width="612" height="214" key="GridCell.Tab.0.bottom/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1594660902267" />
+    <state width="1265" height="278" key="GridCell.Tab.0.bottom/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595086102303" />
     <state width="1265" height="286" key="GridCell.Tab.0.bottom/72.27.1288.741@72.27.1288.741" timestamp="1594074334883" />
-    <state width="522" height="286" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1594060713249" />
-    <state width="612" height="214" key="GridCell.Tab.0.center" timestamp="1594660902266">
-      <screen x="72" y="27" width="1288" height="741" />
+    <state width="1271" height="494" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595180415934" />
+    <state width="1271" height="494" key="GridCell.Tab.0.center" timestamp="1595180415932">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="612" height="214" key="GridCell.Tab.0.center/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1594660902266" />
+    <state width="1265" height="278" key="GridCell.Tab.0.center/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595086102301" />
     <state width="1265" height="286" key="GridCell.Tab.0.center/72.27.1288.741@72.27.1288.741" timestamp="1594074334881" />
-    <state width="522" height="286" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1594060713247" />
-    <state width="612" height="214" key="GridCell.Tab.0.left" timestamp="1594660902266">
-      <screen x="72" y="27" width="1288" height="741" />
+    <state width="1271" height="494" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1595180415932" />
+    <state width="1271" height="494" key="GridCell.Tab.0.left" timestamp="1595180415931">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="612" height="214" key="GridCell.Tab.0.left/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1594660902266" />
+    <state width="1265" height="278" key="GridCell.Tab.0.left/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595086102301" />
     <state width="1265" height="286" key="GridCell.Tab.0.left/72.27.1288.741@72.27.1288.741" timestamp="1594074334879" />
-    <state width="522" height="286" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1594060713247" />
-    <state width="612" height="214" key="GridCell.Tab.0.right" timestamp="1594660902266">
-      <screen x="72" y="27" width="1288" height="741" />
+    <state width="1271" height="494" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1595180415931" />
+    <state width="1271" height="494" key="GridCell.Tab.0.right" timestamp="1595180415933">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="612" height="214" key="GridCell.Tab.0.right/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1594660902266" />
+    <state width="1265" height="278" key="GridCell.Tab.0.right/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595086102302" />
     <state width="1265" height="286" key="GridCell.Tab.0.right/72.27.1288.741@72.27.1288.741" timestamp="1594074334882" />
-    <state width="522" height="286" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1594060713248" />
-    <state width="612" height="214" key="GridCell.Tab.1.bottom" timestamp="1594660902267">
+    <state width="1271" height="494" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1595180415933" />
+    <state width="1265" height="278" key="GridCell.Tab.1.bottom" timestamp="1595086102305">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state width="612" height="214" key="GridCell.Tab.1.bottom/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1594660902267" />
-    <state width="612" height="214" key="GridCell.Tab.1.center" timestamp="1594660902267">
+    <state width="1265" height="278" key="GridCell.Tab.1.bottom/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595086102305" />
+    <state width="1265" height="278" key="GridCell.Tab.1.center" timestamp="1595086102304">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state width="612" height="214" key="GridCell.Tab.1.center/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1594660902267" />
-    <state width="612" height="214" key="GridCell.Tab.1.left" timestamp="1594660902267">
+    <state width="1265" height="278" key="GridCell.Tab.1.center/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595086102304" />
+    <state width="1265" height="278" key="GridCell.Tab.1.left" timestamp="1595086102303">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state width="612" height="214" key="GridCell.Tab.1.left/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1594660902267" />
-    <state width="612" height="214" key="GridCell.Tab.1.right" timestamp="1594660902267">
+    <state width="1265" height="278" key="GridCell.Tab.1.left/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595086102303" />
+    <state width="1265" height="278" key="GridCell.Tab.1.right" timestamp="1595086102305">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state width="612" height="214" key="GridCell.Tab.1.right/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1594660902267" />
+    <state width="1265" height="278" key="GridCell.Tab.1.right/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595086102305" />
     <state x="191" y="90" width="1030" height="629" key="MergeDialog" timestamp="1593008353735">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
@@ -478,13 +485,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pypro/aperitivos/tests/tests_indice.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

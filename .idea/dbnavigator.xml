@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd">
-        <schema name="public" object-types="table, function, sequence, view" />
+        <schema name="public" object-types="sequence, dataset trigger, table, function, index, view, constraint, column" />
       </connection>
     </loaded-nodes>
   </component>
@@ -39,6 +39,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="6e34be0a-57cf-4d89-9e54-99432c1516cd" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.aperitivos_video" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
