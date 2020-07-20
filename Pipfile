@@ -19,6 +19,7 @@ dj-database-url = "*"
 django-s3-folder-storage = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
+django-ordered-model = "*"
 
 [requires]
 python_version = "3.8"

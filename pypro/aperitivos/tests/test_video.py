@@ -21,7 +21,7 @@ def resp_video_no_encontrado(client, video):
     return client.get(reverse('aperitivos:video', args=(video.slug + 'video_no_existente',)))
 
 
-def test_status_code(resp_video_no_encontrado):
+def test_status_code_video_no_encontrado(resp_video_no_encontrado):
     assert resp_video_no_encontrado.status_code == 404
 
 

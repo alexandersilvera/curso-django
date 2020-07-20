@@ -23,11 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd">
-        <schema name="public" object-types="sequence, dataset trigger, table, function, index, view, constraint, column" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6e34be0a-57cf-4d89-9e54-99432c1516cd">
@@ -42,6 +38,7 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.aperitivos_video" active-filter-id="" />
+    <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.modulos_modulo" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -118,7 +115,7 @@
           <max-connection-pool-size value="7" />
           <alternative-statement-delimiter value="" />
         </details>
-        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="true">
           <object-type-filter use-master-settings="true">
             <object-type name="SCHEMA" enabled="true" />
             <object-type name="USER" enabled="true" />
