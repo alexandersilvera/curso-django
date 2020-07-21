@@ -23,7 +23,12 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd">
+        <schema name="pg_catalog" object-types="function" />
+        <schema name="public" object-types="view, table, column, sequence, dataset trigger, function, constraint, index" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6e34be0a-57cf-4d89-9e54-99432c1516cd">
@@ -39,6 +44,11 @@
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.aperitivos_video" active-filter-id="" />
     <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.modulos_modulo" active-filter-id="" />
+    <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.modulos_aula" active-filter-id="a682b8c9-c6fe-45c4-949a-8da40dac88e9">
+      <filter id="a682b8c9-c6fe-45c4-949a-8da40dac88e9" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
