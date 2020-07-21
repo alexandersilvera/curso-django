@@ -22,7 +22,7 @@ install:
 
 
 before_script:
-  - psql -c "CREATE DATABASE testdb;" -U postgres
+  - psql -c "CREATE DATABASE cursodjango;" -U postgres
 
 script:
   - pipenv run flake8 .
