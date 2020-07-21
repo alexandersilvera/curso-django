@@ -25,20 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Arreglos en Django Debug Toolbar">
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0005_aula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0006_aula_vimeo_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0007_auto_vimeo_obligatorio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/modulo_detalle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_modulo_detalle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/0002_auto_20200720_1604.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/migrations/0002_auto_20200720_1604.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
