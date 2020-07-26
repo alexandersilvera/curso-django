@@ -22,6 +22,7 @@ urlpatterns = [
     path('', include('pypro.base.urls')),
     path('aperitivos/', include('pypro.aperitivos.urls')),
     path('modulos/', include('pypro.modulos.urls')),
+    path('clases/', include('pypro.clases.urls')),
 ]
 
 if settings.DEBUG:
