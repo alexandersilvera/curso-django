@@ -20,6 +20,8 @@ django-s3-folder-storage = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
 django-ordered-model = "*"
+ipython = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.8"
