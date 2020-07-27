@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'pypro.aperitivos',
     'pypro.clases',
     'pypro.modulos',
+    'pypro.clases',
     'ordered_model',
     'django_extensions',
 ]

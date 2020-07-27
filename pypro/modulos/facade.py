@@ -7,7 +7,8 @@ from pypro.modulos.models import Modulo, Aula
 
 def listar_modulos_ordenados() -> List[Modulo]:
     """
-    Lista módulos ordenados por titulos
+    Lista módulos ordenados por paramento order
+    :return:
     """
     return list(Modulo.objects.order_by('order').all())
 
@@ -21,7 +22,11 @@ def listar_aulas_de_modulos_ordenados(modulo: Modulo):
 
 
 def encontrar_aula(slug):
+<<<<<<< HEAD
     return Aula.objects.get(slug=slug)
+=======
+    return Aula.objects.select_related('modulo').get(slug=slug)
+>>>>>>> 37f9113f5b4019ee76cba69763aab8d0c83c302b
 
 
 def listar_modulos_con_aulas():
