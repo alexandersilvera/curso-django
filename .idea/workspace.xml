@@ -25,20 +25,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2aeb247-6f25-42f0-8041-b0cbb29eb32e" name="Default Changelist" comment="Arreglos en Django Debug Toolbar">
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0005_aula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0006_aula_vimeo_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0007_auto_vimeo_obligatorio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/modulo_detalle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_modulo_detalle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/templates/clases/indice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/tests/test_indice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/clases/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/indice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_modulos_indice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/0002_auto_20200720_1604.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/migrations/0002_auto_20200720_1604.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_facade.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,25 +84,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/modulos/templates/modulos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/clases" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pypro/clases" />
+      <recent name="$PROJECT_DIR$/pypro/modulos/templates/modulos" />
+      <recent name="$PROJECT_DIR$/pypro/modulos/tests" />
+      <recent name="$PROJECT_DIR$/pypro/modulos" />
+      <recent name="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pypro" />
       <recent name="$PROJECT_DIR$/pypro/aperitivos/tests" />
       <recent name="$PROJECT_DIR$/pypro/aperitivos" />
       <recent name="$PROJECT_DIR$/pypro/aperitivos/tests_video" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pypro/modulos/templates/modulos" />
-      <recent name="$PROJECT_DIR$/pypro/modulos/tests" />
-      <recent name="$PROJECT_DIR$/pypro/modulos" />
-      <recent name="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos" />
-      <recent name="$PROJECT_DIR$/pypro/aperitivos" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_aula_detalle.test_vimeo">
+  <component name="RunManager" selected="Python tests.pytest in test_indice.py">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,22 +151,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_modulo_detalle.test_aula_titulos" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="curso-django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/modulos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
-      <option name="_new_target" value="&quot;test_modulo_detalle.test_aula_titulos&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_modulo_detalle.test_aulas_links" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,7 +167,23 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_modulo_detalle.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_indice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/clases/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/clases/tests/test_indice.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_modulos_indice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,7 +195,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/modulos/tests/test_modulo_detalle.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/modulos/tests/test_modulos_indice.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -224,19 +234,19 @@
     <list>
       <item itemvalue="Python tests.testear todo sin migraciones" />
       <item itemvalue="Python tests.testear todo con migraciones" />
-      <item itemvalue="Python tests.pytest in test_modulo_detalle.py" />
-      <item itemvalue="Python tests.pytest for test_modulo_detalle.test_aula_titulos" />
       <item itemvalue="Python tests.pytest for test_modulo_detalle.test_aulas_links" />
       <item itemvalue="Python tests.pytest for test_aula_detalle.test_titulo" />
       <item itemvalue="Python tests.pytest for test_aula_detalle.test_vimeo" />
+      <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
+      <item itemvalue="Python tests.pytest in test_indice.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_indice.py" />
+        <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
         <item itemvalue="Python tests.pytest for test_aula_detalle.test_vimeo" />
         <item itemvalue="Python tests.pytest for test_aula_detalle.test_titulo" />
         <item itemvalue="Python tests.pytest for test_modulo_detalle.test_aulas_links" />
-        <item itemvalue="Python tests.pytest for test_modulo_detalle.test_aula_titulos" />
-        <item itemvalue="Python tests.pytest in test_modulo_detalle.py" />
       </list>
     </recent_temporary>
   </component>
@@ -473,29 +483,29 @@
     </state>
     <state x="490" y="126" key="FileChooserDialogImpl/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595035997977" />
     <state x="492" y="126" width="443" height="550" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1594668100949" />
-    <state width="526" height="485" key="GridCell.Tab.0.bottom" timestamp="1595293252875">
+    <state width="556" height="486" key="GridCell.Tab.0.bottom" timestamp="1595813727528">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state width="526" height="485" key="GridCell.Tab.0.bottom/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595293252875" />
-    <state width="543" height="491" key="GridCell.Tab.0.bottom/72.27.1288.741@72.27.1288.741" timestamp="1595204956027" />
+    <state width="526" height="435" key="GridCell.Tab.0.bottom/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595370474943" />
+    <state width="556" height="486" key="GridCell.Tab.0.bottom/72.27.1288.741@72.27.1288.741" timestamp="1595813727528" />
     <state width="543" height="491" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595193894961" />
-    <state width="526" height="485" key="GridCell.Tab.0.center" timestamp="1595293252875">
+    <state width="556" height="486" key="GridCell.Tab.0.center" timestamp="1595813727526">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state width="526" height="485" key="GridCell.Tab.0.center/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595293252875" />
-    <state width="543" height="491" key="GridCell.Tab.0.center/72.27.1288.741@72.27.1288.741" timestamp="1595204956025" />
+    <state width="526" height="435" key="GridCell.Tab.0.center/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595370474942" />
+    <state width="556" height="486" key="GridCell.Tab.0.center/72.27.1288.741@72.27.1288.741" timestamp="1595813727526" />
     <state width="543" height="491" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1595193894960" />
-    <state width="526" height="485" key="GridCell.Tab.0.left" timestamp="1595293252874">
+    <state width="556" height="486" key="GridCell.Tab.0.left" timestamp="1595813727525">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state width="526" height="485" key="GridCell.Tab.0.left/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595293252874" />
-    <state width="543" height="491" key="GridCell.Tab.0.left/72.27.1288.741@72.27.1288.741" timestamp="1595204956025" />
+    <state width="526" height="435" key="GridCell.Tab.0.left/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595370474942" />
+    <state width="556" height="486" key="GridCell.Tab.0.left/72.27.1288.741@72.27.1288.741" timestamp="1595813727525" />
     <state width="543" height="491" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1595193894959" />
-    <state width="526" height="485" key="GridCell.Tab.0.right" timestamp="1595293252875">
+    <state width="556" height="486" key="GridCell.Tab.0.right" timestamp="1595813727527">
       <screen x="72" y="27" width="1288" height="741" />
     </state>
-    <state width="526" height="485" key="GridCell.Tab.0.right/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595293252875" />
-    <state width="543" height="491" key="GridCell.Tab.0.right/72.27.1288.741@72.27.1288.741" timestamp="1595204956026" />
+    <state width="526" height="435" key="GridCell.Tab.0.right/72.27.1288.741/72.27.1288.741@72.27.1288.741" timestamp="1595370474942" />
+    <state width="556" height="486" key="GridCell.Tab.0.right/72.27.1288.741@72.27.1288.741" timestamp="1595813727527" />
     <state width="543" height="491" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1595193894960" />
     <state width="1265" height="278" key="GridCell.Tab.1.bottom" timestamp="1595086102305">
       <screen x="72" y="27" width="1288" height="741" />
