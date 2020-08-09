@@ -20,10 +20,7 @@ django-s3-folder-storage = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
 django-ordered-model = "*"
-<<<<<<< HEAD
-=======
 ipython = "*"
->>>>>>> 37f9113f5b4019ee76cba69763aab8d0c83c302b
 django-extensions = "*"
 
 [requires]

@@ -23,11 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd">
-        <schema name="public" object-types="view, sequence, function, table" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6e34be0a-57cf-4d89-9e54-99432c1516cd">
@@ -48,6 +44,12 @@
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
+    <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.clases_matricula" active-filter-id="EMPTY_FILTER">
+      <filter id="2da2181a-3c45-461b-86eb-6e672c5eca12" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.django_migrations" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
