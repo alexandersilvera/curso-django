@@ -33,10 +33,12 @@ def test_vimeo(resp, aula: Aula):
 def test_modulo_breadcrumb(resp, modulo: Modulo):
     assert_contains(resp, f'<li class="breadcrumb-item"><a href="{modulo.get_absolute_url()}">{modulo.titulo}</a></li>')
 
+
 @pytest.fixture
 def resp_sin_usuario(client, aula):
     resp = client.get(reverse('modulos:aula', kwargs={'slug': aula.slug}))
     return resp
+
 
 def test_usuario_no_logeado_redirect(resp_sin_usuario):
     assert resp_sin_usuario.status_code == 302

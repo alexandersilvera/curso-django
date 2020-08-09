@@ -63,6 +63,7 @@ def test_link_de_login_indisponible(resp_home_con_usuario_logeado):
 def test_boton_salir_disponible(resp_home_con_usuario_logeado):
     assert_contains(resp_home_con_usuario_logeado, 'Salir')
 
+
 def test_nombre_usuario_logeado_disponible(resp_home_con_usuario_logeado, usuario_logeado):
     assert_contains(resp_home_con_usuario_logeado, usuario_logeado.first_name)
 
