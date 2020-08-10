@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ordered_model',
     'django_extensions',
+    'collectfast',
 ]
 
 MIDDLEWARE = [

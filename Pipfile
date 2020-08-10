@@ -22,6 +22,7 @@ sentry-sdk = "*"
 django-ordered-model = "*"
 ipython = "*"
 django-extensions = "*"
+collectfast = "*"
 
 [requires]
 python_version = "3.8"
