@@ -23,6 +23,9 @@ django-ordered-model = "*"
 ipython = "*"
 django-extensions = "*"
 collectfast = "*"
+django-model-utils = "*"
+django-ckeditor = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.8"

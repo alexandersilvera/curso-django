@@ -24,10 +24,15 @@ urlpatterns = [
     path('aperitivos/', include('pypro.aperitivos.urls')),
     path('modulos/', include('pypro.modulos.urls')),
     path('clases/', include('pypro.clases.urls')),
+    path('blog/', include('pypro.blog.urls')),
+    path('favoritos/', include('pypro.favoritos.urls')),
+# urls para ckeditor
+    path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
 
 if settings.DEBUG:
     import debug_toolbar
+
     urlpatterns.append(
         path('__debug__/', include(debug_toolbar.urls))
     )

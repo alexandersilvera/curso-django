@@ -1,0 +1,44 @@
+{% extends 'base/base.html' %}
+{% load static %}
+<title>{% block title %}Centro Reino da Mata|Blog{% endblock title %}</title>
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-light bg-light">
+                <form class="form-inline aling-center">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+            {% for entrada in entradas %}
+            <div class="col-md-8-center">
+                <div class="card mb-3 mt-4" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="{{ entrada.image.url }}" class="card-img" style="height: 200px"
+                                 alt="Imagen del Post">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ entrada.title | truncatechars:40 }}</h5>
+                                <p class="card-text">{{ entrada.resumen | truncatechars:40 }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% empty %}
+                <h3 style="color: red;" class="h3 mt-4">No se encontraron Resultados ...</h3>
+            </div>
+            {% endfor %}
+            <div class="col-md-4 ">
+                <div class="card mb-3 mt-4">
+                    <div class="card-body">
+                        <p><a href="">{{ entrada.category }}</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

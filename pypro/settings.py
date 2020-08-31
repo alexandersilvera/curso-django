@@ -33,6 +33,8 @@ INSTALLED_APPS = [
     'pypro.aperitivos',
     'pypro.modulos',
     'pypro.clases',
+    'pypro.blog',
+    'pypro.favoritos',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ordered_model',
     'django_extensions',
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -144,6 +148,27 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 COLLECTFAST_ENABLED = False
 
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
+
+# ckeditor settings
+CKEDITOR_UPLOAD_PATH = 'uploads/'
+CKEDITOR_IMAGE_BACKEND = 'pillow'
+CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter',
+             'JustifyRight', 'JustifyBlock'],
+            ['TextColor', 'Format', 'FontSize', 'Link', 'Unlink'],
+            ['Smiley', 'Image', 'Iframe'],
+            ['RemoveFormat', 'Source'],
+        ],
+        'stylesSet': [
+        ],
+    }
+}
 
 # STORAGE CONFIGURATION IN S3 AWS
 # ------------------------------------------------------------

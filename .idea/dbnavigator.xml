@@ -44,6 +44,11 @@
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
+    <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.blog_entry" active-filter-id="777c9638-1903-446c-8cf1-b26f41eefdc8">
+      <filter id="777c9638-1903-446c-8cf1-b26f41eefdc8" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
     <filter-actions connection-id="6e34be0a-57cf-4d89-9e54-99432c1516cd" dataset="public.clases_matricula" active-filter-id="EMPTY_FILTER">
       <filter id="2da2181a-3c45-461b-86eb-6e672c5eca12" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />
