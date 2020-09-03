@@ -2,10 +2,10 @@
 {% load static %}
 <title>{% block title %}Centro Reino da Mata|Home{% endblock title %}</title>
 {% block body %}
-<div class="container">
-    <!-- Carousel -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
+<!-- Carousel -->
+<section id="main" class="mb-4">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner" style="max-height: 70vh; object-fit: cover;">
             <div class="carousel-item active">
                 <img src="{% static 'image/congal.JPG' %}" class="d-block w-100" alt="Congal de nuestro Centro">
             </div>
@@ -16,15 +16,12 @@
                 <img src="{% static 'image/ori-bara.jpg' %}" class="d-block w-100" alt="Ori-Bara ritual">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-    <!-- /Carousel -->
-</div>
+</section>
+<!-- /Carousel -->
+<!-- Info -->
+<section>
+
+</section>
+<!-- /Info -->
 {% endblock body %}
