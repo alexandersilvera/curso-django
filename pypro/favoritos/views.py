@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.urls import reverse_lazy, reverse
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -12,6 +11,7 @@ from django.views.generic import (
 from .models import Favorites
 from pypro.blog.models import Entry
 
+
 class UserPageView(LoginRequiredMixin, ListView):
     template_name = "favoritos/perfil.html"
     context_object_name = 'entradas_user'
@@ -22,9 +22,7 @@ class UserPageView(LoginRequiredMixin, ListView):
 
 
 class AddFavoritosView(LoginRequiredMixin, View):
-
     login_url = reverse_lazy('users_app:user-login')
-
 
     def post(self, request, *args, **kwargs):
         # recuperar el usuario
@@ -41,6 +39,7 @@ class AddFavoritosView(LoginRequiredMixin, View):
                 'favoritos_app:perfil',
             )
         )
+
 
 class FavoritesDeleteView(DeleteView):
     model = Favorites

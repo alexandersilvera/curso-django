@@ -1,10 +1,10 @@
-from django.shortcuts import render
 from django.views.generic import (
     ListView,
     DetailView
 )
 # app
 from .models import Entry, Category
+
 
 class EntryListView(ListView):
     template_name = "blog/blog.html"
@@ -22,6 +22,7 @@ class EntryListView(ListView):
         # consulta de busqueda
         resultado = Entry.objects.buscar_entrada(kword, categoria)
         return resultado
+
 
 class EntryDetailView(DetailView):
     template_name = "blog/detail.html"

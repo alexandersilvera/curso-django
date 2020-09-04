@@ -8,7 +8,6 @@ import model_utils.fields
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -21,10 +20,15 @@ class Migration(migrations.Migration):
             name='Favorites',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('created', model_utils.fields.AutoCreatedField(default=django.utils.timezone.now, editable=False, verbose_name='created')),
-                ('modified', model_utils.fields.AutoLastModifiedField(default=django.utils.timezone.now, editable=False, verbose_name='modified')),
-                ('entry', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='entry_favorites', to='blog.entry')),
-                ('usuario', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('created', model_utils.fields.AutoCreatedField(default=django.utils.timezone.now, editable=False,
+                                                                verbose_name='created')),
+                ('modified', model_utils.fields.AutoLastModifiedField(default=django.utils.timezone.now, editable=False,
+                                                                      verbose_name='modified')),
+                ('entry', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='entry_favorites',
+                                            to='blog.entry')),
+                (
+                    'usuario',
+                    models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
             options={
                 'verbose_name': 'Entrada Favorita',

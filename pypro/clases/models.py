@@ -19,4 +19,3 @@ class Matricula(models.Model):
     class Meta:
         unique_together = [['usuario', 'clase']]
         ordering = ['clase', 'data']
-

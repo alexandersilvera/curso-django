@@ -26,7 +26,7 @@ urlpatterns = [
     path('clases/', include('pypro.clases.urls')),
     path('blog/', include('pypro.blog.urls')),
     path('favoritos/', include('pypro.favoritos.urls')),
-# urls para ckeditor
+    # urls para ckeditor
     path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
 
