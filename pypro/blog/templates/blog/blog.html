@@ -9,8 +9,10 @@
         </div>
         <div class="col ">
             <nav class="navbar navbar-light bg-dark float-right">
-                <form class="form-inline ">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <form class="form-inline" method="get">
+                    {% csrf_token %}
+                    <input class="form-control mr-sm-2" type="text" id="kword" name="kword" placeholder="Buscar"
+                           aria-label="Search">
 
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
@@ -30,6 +32,7 @@
         {% for entrada in entradas %}
         <div class="row">
             <div class="col">
+
                 <div class="card mb-3 mt-4 bg-dark text-white">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -38,7 +41,8 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card-body">
-                                <h5 class="card-title">{{ entrada.title | truncatechars:40 }}</h5>
+                                <a href="{% url 'blog:entry-detail' entrada.id %}">
+                                    {{ entrada.title | truncatechars:40 }}</a>
                                 <p class="card-text">{{ entrada.resumen | truncatechars:40 }}</p>
                             </div>
                         </div>

@@ -25,5 +25,5 @@ class EntryListView(ListView):
 
 
 class EntryDetailView(DetailView):
-    template_name = "blog/detail.html"
+    template_name = "blog/detalle.html"
     model = Entry

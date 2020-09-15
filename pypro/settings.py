@@ -150,23 +150,22 @@ COLLECTFAST_ENABLED = False
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 
 # ckeditor settings
+
 CKEDITOR_UPLOAD_PATH = 'uploads/'
-CKEDITOR_IMAGE_BACKEND = 'pillow'
-CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'
+CKEDITOR_FILENAME_GENERATOR = 'utils.get_filename'
+# Django Ckeditor para S3
+AWS_QUERYSTRING_AUTH = False
 
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': 'Custom',
         'toolbar_Custom': [
             ['Bold', 'Italic', 'Underline'],
-            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter',
-             'JustifyRight', 'JustifyBlock'],
-            ['TextColor', 'Format', 'FontSize', 'Link', 'Unlink'],
-            ['Smiley', 'Image', 'Iframe'],
-            ['RemoveFormat', 'Source'],
-        ],
-        'stylesSet': [
-        ],
+            ['NumberedList', 'BulletedList', '-', 'Outdent ', ' Sangría ', ' - ', ' JustifyLeft ', ' JustifyCenter ',
+             ' JustifyRight ', ' JustifyBlock '],
+            ['Enlace ', ' Desvincular '],
+            ['RemoveFormat', 'Fuente']
+        ]
     }
 }
 
