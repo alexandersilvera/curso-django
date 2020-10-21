@@ -11,7 +11,7 @@ codecov = "*"
 model-mommy = "*"
 
 [packages]
-django = "*"
+Django = "*"
 gunicorn = "*"
 python-decouple = "*"
 psycopg2-binary = "*"
@@ -22,10 +22,10 @@ sentry-sdk = "*"
 django-ordered-model = "*"
 ipython = "*"
 django-extensions = "*"
-collectfast = "*"
+Collectfast = "*"
 django-model-utils = "*"
+Pillow = "*"
 django-ckeditor = "*"
-pillow = "*"
 
 [requires]
 python_version = "3.8"

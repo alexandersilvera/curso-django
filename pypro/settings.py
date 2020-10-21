@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'ordered_model',
     'django_extensions',
     'ckeditor',
-    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -151,23 +150,6 @@ AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 
 # ckeditor settings
 
-CKEDITOR_UPLOAD_PATH = 'uploads/'
-CKEDITOR_FILENAME_GENERATOR = 'utils.get_filename'
-# Django Ckeditor para S3
-AWS_QUERYSTRING_AUTH = False
-
-CKEDITOR_CONFIGS = {
-    'default': {
-        'toolbar': 'Custom',
-        'toolbar_Custom': [
-            ['Bold', 'Italic', 'Underline'],
-            ['NumberedList', 'BulletedList', '-', 'Outdent ', ' Sangría ', ' - ', ' JustifyLeft ', ' JustifyCenter ',
-             ' JustifyRight ', ' JustifyBlock '],
-            ['Enlace ', ' Desvincular '],
-            ['RemoveFormat', 'Fuente']
-        ]
-    }
-}
 
 # STORAGE CONFIGURATION IN S3 AWS
 # ------------------------------------------------------------

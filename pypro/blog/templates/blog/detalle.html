@@ -1,8 +1,9 @@
 {% extends 'base/base.html' %}
 {% load static %}
-<title>{% block title %}Centro Reino da Mata|Blog{% endblock title %}</title>
+<title>{% block title %}Centro Reino da Mata|{{ object.title }}{% endblock title %}</title>
 {% block body %}
-<img src="{{ entrada.image.url }}" alt="Imagen Articulo">
+
+<img src="{{ entrada.image.url }}" class="card-img" style="height: 200px" alt="Imagen del Post">
 <div class="container">
     <div class="row">
         <div class="col">

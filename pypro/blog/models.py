@@ -54,8 +54,8 @@ class Entry(TimeStampedModel):
         'Titulo',
         max_length=200
     )
-    resumen = RichTextField('Resumen')
-    content = RichTextField('Contenido')
+    resumen = RichTextField(verbose_name='Resumen')
+    content = RichTextField(verbose_name='Contenido')
     public = models.BooleanField(default=False)
     image = models.ImageField(
         'Imagen',

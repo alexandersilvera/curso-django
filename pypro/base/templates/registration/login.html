@@ -17,7 +17,7 @@
             <p>Please login to see this page.</p>
             {% endif %}
             {% endif %}
-            <div class="card">
+            <div class="card-body text-center">
                 <form method="post" class="mt-5 " action="{% url 'login' %}">
                     {% csrf_token %}
                     <div class="form-group">
@@ -26,8 +26,7 @@
                         {{ form.password.label_tag }}<br>
                         {{ form.password }}
                     </div>
-
-                    <input type="submit" value="login">
+                    <button type="submit" value="login" class="btn btn-success">Login</button>
                     <input type="hidden" name="next" value="{{ next }}">
                 </form>
 
