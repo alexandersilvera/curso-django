@@ -9,6 +9,7 @@ pytest-django = "*"
 pytest-cov = "*"
 codecov = "*"
 model-mommy = "*"
+sync = "*"
 
 [packages]
 Django = "*"
@@ -26,6 +27,7 @@ Collectfast = "*"
 django-model-utils = "*"
 Pillow = "*"
 django-ckeditor = "*"
+sync = "*"
 
 [requires]
 python_version = "3.8"

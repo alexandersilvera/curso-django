@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.db import models
 # apps terceros
 from model_utils.models import TimeStampedModel
-from ckeditor.fields import RichTextField
+# from ckeditor.fields import RichTextField
 
 from pypro.blog.managers import EntryManager
 
@@ -54,8 +54,8 @@ class Entry(TimeStampedModel):
         'Titulo',
         max_length=200
     )
-    resumen = RichTextField(verbose_name='Resumen')
-    content = RichTextField(verbose_name='Contenido')
+    resumen = models.TextField(verbose_name='Resumen')
+    content = models.TextField(verbose_name='Contenido')
     public = models.BooleanField(default=False)
     image = models.ImageField(
         'Imagen',
