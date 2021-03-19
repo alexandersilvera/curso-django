@@ -234,7 +234,7 @@
                 "sha256:fbd922f702582cb0d71ef94442bfca57624352622d75e3be7a1e7e9360b07e72"
             ],
             "index": "pypi",
-            "version": "==8.0.1"
+            "version": ">==8.0.1"
         },
         "prompt-toolkit": {
             "hashes": [
