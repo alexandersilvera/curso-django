@@ -525,13 +525,8 @@
             "version": "==3.3.2"
         },
         "codecov": {
-            "hashes": [
-                "sha256:61bc71b5f58be8000bf9235aa9d0112f8fd3acca00aa02191bb81426d22a8584",
-                "sha256:a333626e6ff882db760ce71a1d84baf80ddff2cd459a3cc49b41fdac47d77ca5",
-                "sha256:d30ad6084501224b1ba699cbf018a340bb9553eb2701301c14133995fdd84f33"
-            ],
-            "index": "pypi",
-            "version": "==2.1.10"
+            "hashes": [],
+            "version": "==2.1.13"
         },
         "coverage": {
             "hashes": [
@@ -593,7 +588,6 @@
                 "sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc",
                 "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
             ],
-
             "markers": "python_version >= '3.5'",
             "version": "==3.7"
         },
