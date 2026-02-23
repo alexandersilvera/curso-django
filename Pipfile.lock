@@ -175,11 +175,8 @@
             "version": "==0.17.2"
         },
         "jmespath": {
-            "hashes": [
-                "sha256:b85d0567b8666149a93172712e68920734333c0ce7e89b78b3e987f71e5ed4f9",
-                "sha256:cdf6525904cc597730141d61b36f2e4b8ecc257c420fa2f4549bac2c2d0cb72f"
-            ],
-            "version": "==0.10.0"
+            "hashes": [],
+            "version": "==1.1.0"
         },
         "packaging": {
             "hashes": [
@@ -593,7 +590,6 @@
                 "sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc",
                 "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
             ],
-
             "markers": "python_version >= '3.5'",
             "version": "==3.7"
         },
