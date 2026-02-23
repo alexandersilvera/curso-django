@@ -246,11 +246,8 @@
             "version": ">==8.0.1"
         },
         "prompt-toolkit": {
-            "hashes": [
-                "sha256:25c95d2ac813909f813c93fde734b6e44406d1477a9faef7c915ff37d39c0a8c",
-                "sha256:7debb9a521e0b1ee7d2fe96ee4bd60ef03c6492784de0547337ca4433e46aa63"
-            ],
-            "version": "==3.0.8"
+            "hashes": [],
+            "version": "==3.0.52"
         },
         "psycopg2-binary": {
             "hashes": [
@@ -593,7 +590,6 @@
                 "sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc",
                 "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
             ],
-
             "markers": "python_version >= '3.5'",
             "version": "==3.7"
         },
