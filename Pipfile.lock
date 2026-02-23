@@ -45,11 +45,8 @@
             "version": "==1.19.13"
         },
         "certifi": {
-            "hashes": [
-                "sha256:1f422849db327d534e3d0c5f02a263458c3955ec0aae4ff09b95f195c59f4edd",
-                "sha256:f05def092c44fbf25834a51509ef6e631dc19765ab8a57b4e7ab85531f0a9cf4"
-            ],
-            "version": "==2020.11.8"
+            "hashes": [],
+            "version": "==2026.1.4"
         },
         "collectfast": {
             "hashes": [
@@ -414,12 +411,8 @@
             "version": "==20.3.0"
         },
         "certifi": {
-            "hashes": [
-                "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f",
-                "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==2024.2.2"
+            "hashes": [],
+            "version": "==2026.1.4"
         },
         "chardet": {
             "hashes": [
@@ -593,7 +586,6 @@
                 "sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc",
                 "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
             ],
-
             "markers": "python_version >= '3.5'",
             "version": "==3.7"
         },
