@@ -344,11 +344,8 @@
             "version": "==0.19.2"
         },
         "six": {
-            "hashes": [
-                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
-                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
-            ],
-            "version": "==1.15.0"
+            "hashes": [],
+            "version": "==1.17.0"
         },
         "sqlparse": {
             "hashes": [
@@ -593,7 +590,6 @@
                 "sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc",
                 "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
             ],
-
             "markers": "python_version >= '3.5'",
             "version": "==3.7"
         },
@@ -701,11 +697,8 @@
             "version": "==2.32.0"
         },
         "six": {
-            "hashes": [
-                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
-                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
-            ],
-            "version": "==1.15.0"
+            "hashes": [],
+            "version": "==1.17.0"
         },
         "sqlparse": {
             "hashes": [
