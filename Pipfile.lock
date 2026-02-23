@@ -91,12 +91,8 @@
             "version": "==6.0.0"
         },
         "django-debug-toolbar": {
-            "hashes": [
-                "sha256:a1ce0665f7ef47d27b8df4b5d1058748e1f08500a01421a30d35164f38aaaf4c",
-                "sha256:c97921a9cd421d392e7860dc4b464db8e06c8628df4dc58fedab012888c293c6"
-            ],
-            "index": "pypi",
-            "version": "==3.1.1"
+            "hashes": [],
+            "version": "==6.2.0"
         },
         "django-extensions": {
             "hashes": [
@@ -593,7 +589,6 @@
                 "sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc",
                 "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
             ],
-
             "markers": "python_version >= '3.5'",
             "version": "==3.7"
         },
